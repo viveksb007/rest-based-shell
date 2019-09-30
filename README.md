@@ -1,8 +1,9 @@
 # rest-based-shell
 
 This project is intended to be able to run commands where your application is hosted if a terminal is not exposed to you. 
+
 This REST based application simply takes the command and executes using shell. I tried to emulate real behaviour of system shell.
-So added a **username** parameter, this differentiates the directory state of each shell. Using shell with different usernames is similar to using two terminal windows.
+So added a **username** parameter, this differentiates the directory state of each shell. Using the endpoint with different usernames is similar to using two terminal windows.
 
 ## Development
 
