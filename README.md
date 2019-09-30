@@ -15,7 +15,7 @@ If you are using IntelliJ, just import the project and run `main()` of **`Applic
 After application is up and running, you can head over to `localhost:8080` (username,password -> admin, admin)
 
 ### Screenshot
-
+![Demo Image](demo.png)
 
 ## Contribution
 Feel free to checkout the project, submit issues and enhancement requests. 
