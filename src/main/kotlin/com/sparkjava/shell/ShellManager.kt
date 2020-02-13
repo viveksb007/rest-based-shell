@@ -16,6 +16,10 @@ fun manageShell() {
             shell
         }
         val command = request.queryParams("command")
-        return@get shell!!.executeCommand(command).replace("\n", "<br/>")
+        if ("exit" == command) {
+            shellSessionMap.remove(username)
+            return@get "Session terminated successfully"
+        } else
+            return@get shell!!.executeCommand(command).replace("\n", "<br/>")
     }
 }
